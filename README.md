@@ -25,5 +25,7 @@ npm run build
 php artisan serve --port=8000
 ```
 Данные для входа в аккаунт:
+
 логин: admin
+
 пароль: 123
