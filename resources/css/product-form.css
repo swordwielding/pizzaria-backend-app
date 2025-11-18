@@ -1,0 +1,54 @@
+.product-form {
+    width: 400px;
+    margin: 20px 0 20px 70px;
+}
+
+.product-form label {
+    display: block;
+    font-weight: normal;
+    color: #000;
+    margin-bottom: 4px;
+}
+
+.product-form input[type="text"],
+.product-form input[type="password"],
+.product-form input[type="number"],
+.product-form input[type="file"],
+.product-form select,
+.product-form textarea {
+    width: 100%;
+    padding: 6px;
+    border: 1px solid #000;
+    border-radius: 8px;
+    color: #000;
+    background-color: #fff;
+    box-sizing: border-box;
+    margin-bottom: 12px;
+}
+
+.product-form textarea {
+    resize: vertical;
+    min-height: 80px;
+}
+
+.product-form input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+.product-form button {
+    padding: 6px 12px;
+    border: 1px solid #000;
+    background-color: #fff;
+    color: #000;
+    cursor: pointer;
+}
+
+.product-form button:hover {
+    background-color: #f0f0f0;
+}
+
+.error {
+    color: red;
+    font-size: 13px;
+    margin-bottom: 12px;
+}
